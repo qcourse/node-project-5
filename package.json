@@ -1,0 +1,18 @@
+{
+  "name": "project5.qcourse.net",
+  "version": "1.0.0",
+  "description": "qcloud node course 5",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomleader4444@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "multer": "^1.1.0",
+    "tencentyun": "^2.0.4"
+  }
+}
