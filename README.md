@@ -7,3 +7,5 @@
 3. 对图片按宽或高进行等比压缩，并返回图片数据
 4. 对图片进行旋转，并返回图片数据
 
+项目的开发构建流程可以参考wiki，地址为https://github.com/qcourse/node-project-5/wiki
+
