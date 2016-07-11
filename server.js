@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require("express");
+const bodyParser = require("body-parser");
 
 function start(port) {
     const app = express();
@@ -9,7 +10,8 @@ function start(port) {
         response.end();
     });
 
-
+    app.use(bodyParser.json());
+    app.use("/upload", require("./module/upload"));
     
     app.listen(port || 3000);
 
