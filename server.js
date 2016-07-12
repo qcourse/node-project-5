@@ -13,6 +13,7 @@ function start(port) {
     app.use(bodyParser.json());
     app.use("/upload", require("./module/upload"));
     app.use("/stat", require("./module/stat"));
+    app.use("/resize", require("./module/resize"));
     
     app.listen(port || 3000);
 
