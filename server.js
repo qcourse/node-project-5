@@ -15,6 +15,7 @@ function start(port) {
     app.use("/stat", require("./module/stat"));
     app.use("/resize", require("./module/resize"));
     app.use("/rotate", require("./module/rotate"));
+    app.use("/delete", require("./module/delete"));
     
     app.listen(port || 3000);
 
