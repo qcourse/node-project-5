@@ -14,6 +14,7 @@ function start(port) {
     app.use("/upload", require("./module/upload"));
     app.use("/stat", require("./module/stat"));
     app.use("/resize", require("./module/resize"));
+    app.use("/rotate", require("./module/rotate"));
     
     app.listen(port || 3000);
 
